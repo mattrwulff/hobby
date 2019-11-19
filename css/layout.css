@@ -1,0 +1,70 @@
+body{
+    background-color:hsl(0, 0%, 12%);
+}
+/*this is the header*/
+.header{ 
+    grid-area: header; 
+    text-align: center;
+}
+/*this is the nav*/
+.nav{ 
+    grid-area: nav; 
+    font-size: 150%;
+}
+/* this is the section for hunting/camping*/
+.section1{ grid-area: section1;
+    font-weight: 900;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+/* this is the section for paintball*/
+.section2{ grid-area: section2;
+
+     font-weight: 900;
+     padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+/* this is the section for video games*/
+.section3{ grid-area: section3;
+
+    font-weight: 900;
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+}
+/*this is the footer*/
+.footer{ grid-area: footer; 
+    font-weight: 900; 
+    text-align: center;
+}
+ul{
+    
+    list-style-type: none; 
+    text-align: center;
+    font-size: 35px; 
+}
+
+
+
+
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header nav nav nav nav nav'
+    'section1 section1 section2 section2 section3 section3'
+    'footer footer footer footer footer footer';
+    background-color: rgb(112, 112, 112);
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px; 
+    margin-right: 150px;
+    margin-left: 150px;               
+}
+

@@ -1,0 +1,38 @@
+body{
+    background-color:hsl(0, 0%, 12%);
+    
+}
+/*this is the header*/
+.header{ 
+    grid-area: header; 
+    text-align: center;
+}
+/*this is the nav for all of the info pages*/
+.nav{ 
+    grid-area: nav; 
+    font-size: 350%
+}
+/*this is the info page for all of the info pages*/
+.article{ grid-area: article;
+    font-weight: 900;
+}
+/*this is the footer for all of the info pages*/
+.footer{ grid-area: footer; 
+    font-weight: 900; 
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    'header nav nav nav nav nav'
+    'article article article article article article'
+    'footer footer footer footer footer footer';
+     background-color: rgb(112, 112, 112);
+    padding-top: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px; 
+    margin-right: 150px;
+    margin-left: 150px; 
+}
